@@ -10,7 +10,13 @@ function display_addgame(){
             <li><a href="../history">History</a></li>
             <li><a href="../rules">Rules</a></li>
             </ul>
-        </nav>
+    </nav>
+        <form action="request.php" method="post">
+        <input type="text" name="placement" placeholder="Placement">
+        <input type="text" name="lpgain" placeholder="LP gain">
+        <button type="submit">Send</button>
+    </form>
+
     <p> Cest la big page addgame le sang</p>
     </body>
     ';
